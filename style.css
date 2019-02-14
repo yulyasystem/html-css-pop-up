@@ -133,7 +133,6 @@ html {
   cursor: pointer;
   display: flex;
   justify-content: center;
-  width: 100%;
   padding: 14px;
   background-color: #f5f5f5;
 }
@@ -144,6 +143,11 @@ html {
 .input-services-box:focus ~.label-services{
   outline: 2px solid Highlight;
   outline: auto 5px -webkit-focus-ring-color; 
+}
+
+.input-more-apps:focus ~.label-apps-more{
+  outline: 2px solid Highlight;
+  outline: auto 5px -webkit-focus-ring-color;
 }
 
 .input-services-box:checked ~.application-menu {
